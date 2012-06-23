@@ -1,5 +1,7 @@
 # domnode-geolocation
 
+    npm install geolocationstream
+
 use HTML5 [Geolocation](https://developer.mozilla.org/en/Using_geolocation) to watch location changes the node way -- with streams
 
     var movement = new GeolocationStream()
