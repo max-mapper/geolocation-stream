@@ -1,6 +1,6 @@
-# domnode-geolocation
+# geolocation-stream
 
-    npm install geolocationstream
+    npm install geolocation-stream
 
 use HTML5 [Geolocation](https://developer.mozilla.org/en/Using_geolocation) to watch location changes the node way -- with streams
 

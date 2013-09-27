@@ -1,4 +1,15 @@
 {
-  "name": "geolocationstream",
-  "version": "0.0.1"
+  "name": "geolocation-stream",
+  "version": "0.0.1",
+  "description": "streaming API on top of the html5 geolocation API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxogden/domnode-geolocation.git"
+  },
+  "author": "max ogden",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/maxogden/domnode-geolocation/issues"
+  }
 }
