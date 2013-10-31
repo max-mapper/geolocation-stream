@@ -1,7 +1,9 @@
 # geolocation-stream
 
-Use HTML5 [Geolocation](https://developer.mozilla.org/en/Using_geolocation) to watch
-location changes the node way -- with streams.
+geolocation-stream is a node module that lets you use the HTML5
+[Geolocation API](https://developer.mozilla.org/en/Using_geolocation) to watch
+location changes the node way -- with streams! It's designed for use with
+[browserify](http://blakeembrey.com/articles/introduction-to-browserify/).
 
 ## Installation
 
@@ -25,7 +27,7 @@ movement.on('error', function(err) {
 })
 ```
 
-Bundle it up into a browser-friendly file using [browserify](http://blakeembrey.com/articles/introduction-to-browserify/):
+Bundle it up into a browser-friendly file:
 
 ```sh
 npm install browserify -g
