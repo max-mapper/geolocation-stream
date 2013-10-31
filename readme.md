@@ -35,16 +35,31 @@ browserify src.js -o bundle.js
 ## Demo
 
 Your browser's Geolocation API may [not work](http://stackoverflow.com/a/5431823/95670)
-with the `file://` protocol, so you can just pop open index.html in your browser.
-Instead you'll need to run a server locally to see the demo. Luckily that's not so hard:
+with the `file://` protocol, so you can't just pop open `demo/index.html` in your browser.
+Instead you'll need to run an HTTP server locally. Luckily that's not so hard:
 
 ```
 npm install -g ecstatic
 ecstatic demo
 ```
 
-Open [localhost:8000](http://localhost:8000) in your browser and pop open the Javascript console
-to see your location stream.
+Open [localhost:8000](http://localhost:8000) in your browser and open the Javascript console. Behold
+your geolocation stream! It should look something like this:
+
+```js
+{
+  timestamp:1383203179029,
+  coords:{
+    speed:null,
+    heading:null,
+    altitudeAccuracy:null,
+    accuracy:28,
+    altitude:null,
+    longitude:-122.4236727,
+    latitude:37.752089
+  }
+}
+```
 
 ## License
 
