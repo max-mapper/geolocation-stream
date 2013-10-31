@@ -1,6 +1,6 @@
 {
   "name": "geolocation-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "streaming API on top of the html5 geolocation API",
   "main": "index.js",
   "repository": {
