@@ -41,11 +41,12 @@ with the `file://` protocol, so you can't just pop open `demo/index.html` in you
 Instead you'll need to run an HTTP server locally. Luckily that's not so hard:
 
 ```
-npm install -g ecstatic
-ecstatic demo
+cd geolocation-stream
+npm install
+npm start
 ```
 
-Open [localhost:8000](http://localhost:8000) in your browser and open the Javascript console. Behold
+Open [localhost:9966](http://localhost:9966) in your browser and open the Javascript console. Behold
 your geolocation stream! It should look something like this:
 
 ```js

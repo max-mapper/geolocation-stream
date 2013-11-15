@@ -5,11 +5,19 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxogden/domnode-geolocation.git"
+    "url": "git://github.com/maxogden/geolocation-stream.git"
+  },
+  "scripts": {
+    "start": "beefy --cwd demo/ src.js:bundle.js"
   },
   "author": "max ogden",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/maxogden/domnode-geolocation/issues"
+    "url": "https://github.com/maxogden/geolocation-stream/issues"
+  },
+  "devDependencies": {
+    "beefy": "~0.4.5",
+    "browserify": "~2.35.2",
+    "console-log": "~1.0.0"
   }
 }
